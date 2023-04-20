@@ -8,7 +8,8 @@ METHODS = ["GET", "POST", "PUT", "PATCH", "DELETE"]
 
 
 def log_stats(mongo_collection, option=None):
-    """ script that provides some stats about Nginx logs stored in MongoDB
+    """
+    Log Stats
     """
     items = {}
     if option:
